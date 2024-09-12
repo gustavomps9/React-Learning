@@ -10,11 +10,12 @@ import ColorPicker from "./ColorPicker.jsx"
 import MyThirdComponent from "./MyThirdComponent.jsx"
 import MyFourthComponent from "./MyFourthComponent.jsx"
 import MyFinalComponent from "./MyFinalComponent.jsx"
+import ComponentUseState from "./ComponentUseState.jsx"
 
 function App() {
   return(
     <>
-      <MyFinalComponent/>
+      <ComponentUseState/>
     </>
   ); 
 }
@@ -33,4 +34,5 @@ export default App
       <ColorPicker/>
       <MyThirdComponent/>
       <MyFourthComponent/>
+      <MyFinalComponent/>
 */
